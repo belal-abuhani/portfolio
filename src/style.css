@@ -1,3 +1,6 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -279,6 +282,7 @@ html {
 
 .main-name {
   color: #cd5ff8;
+  font-size: 18px;
 }
 
 .Typewriter__wrapper {
@@ -502,7 +506,6 @@ html {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
 }
 
