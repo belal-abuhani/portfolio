@@ -38,9 +38,9 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Modern Javascript Frameworks &nbsp;</b>
               </i>
-              like
+              <span>like </span>
               <i>
                 <b className="purple"> Node.js and React.js</b>
               </i>
@@ -48,7 +48,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="belal" style={{ borderRadius: "100%", minHeight: "300px", minWidth: "300px" }} />
+              <img src={myImg} className="img-fluid" alt="belal" style={{ borderRadius: "100%", height: "270px", width: "270px", border: "solid 8px gray" }} />
             </Tilt>
           </Col>
         </Row>
