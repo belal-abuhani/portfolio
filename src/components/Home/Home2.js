@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/belal-pic.jpeg";
+import myImg from "../../Assets/belal.jpeg";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -10,7 +10,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col id="belal" md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -48,7 +48,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="belal" style={{ borderRadius: "100%", height: "270px", width: "270px", border: "solid 8px gray" }} />
+              <img src={myImg} className="img-fluid" alt="belal" style={{ borderRadius: "100%", width: "290px", border: "solid 7px gray" }} />
             </Tilt>
           </Col>
         </Row>

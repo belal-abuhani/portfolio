@@ -30,8 +30,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
-          Belal AbuHani
+        <Navbar.Brand href="/#belal">
+          <span style={{ fontFamily: "cursive" }}>Belal AbuHani</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

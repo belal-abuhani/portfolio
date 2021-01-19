@@ -1,5 +1,6 @@
 *{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 html {
   --section-background-color: linear-gradient(
@@ -282,7 +283,6 @@ html {
 
 .main-name {
   color: #cd5ff8;
-  font-size: 18px;
 }
 
 .Typewriter__wrapper {
@@ -321,7 +321,7 @@ html {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -466,11 +466,13 @@ html {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  
 }
 
 .blog-card {

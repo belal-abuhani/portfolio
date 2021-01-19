@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: "500px" }} />
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: "450px" }} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

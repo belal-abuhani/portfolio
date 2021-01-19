@@ -6,10 +6,10 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/shark.png";
-import emotion from "../../Assets/Projects/spark.png";
+import shark from "../../Assets/Projects/shark.png";
+import spark from "../../Assets/Projects/spark.png";
 import medhub from "../../Assets/Projects/fb.png";
-import eeg from "../../Assets/Projects/fb.png";
+import fb from "../../Assets/Projects/fb1.png";
 import suicide from "../../Assets/Projects/laf.png";
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
@@ -28,20 +28,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={shark}
               isBlog={false}
               title="SHARKONA"
-              description="To help organizations and institutions that want to organize an event and adding it on the website , to  enable useres  book it to participate  "
+              description="To help organizations and institutions that want to organize an event and adding it on the website , to  enable useres  book it to participate.  "
               link="https://github.com/belal-abuhani/sharkona_v2"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={spark}
               isBlog={false}
               title="SPARKLES"
-              description="for booking cleaning services, user
+              description="For booking cleaning services, user
               can add tips for other users , buy
               cleaning products.
               "
@@ -54,7 +54,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="LAFLEFNE"
-              description="A MERN stack project that enables the user book a trip , and check the weather before booking .
+              description="A MERN stack project that enables the user book a trip , and check the weather before booking.
               "
               link="https://github.com/belal-abuhani/LafLefne-V2"
             />
@@ -62,10 +62,10 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={eeg}
+              imgPath={fb}
               isBlog={false}
               title="FACEBOOK-PROFILE"
-              description=" static facebook profile on mobile wiith the reactions on posts  "
+              description=" Static facebook profile page on mobile wiith the reactions on posts "
               link="https://belal-abuhani.github.io/FB-profile/"
             />
           </Col>
