@@ -68,6 +68,16 @@ function NavBar() {
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                // as={Link}
+                href="https://drive.google.com/file/d/1m8SswnLzauCLjqAU9nsJvGWvcrQ5_SLe/view"
+                onClick={() => updateExpanded(false)}
+                target="_blank"
+              >
+                <i className="far fa-file"></i> Resume
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
